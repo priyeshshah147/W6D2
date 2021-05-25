@@ -6,6 +6,7 @@ require 'active_support/inflector'
 class SQLObject
   def self.columns
     # ...
+
   end
 
   def self.finalize!
@@ -16,7 +17,7 @@ class SQLObject
   end
 
   def self.table_name
-    # ...
+    puts 'cats'
   end
 
   def self.all
